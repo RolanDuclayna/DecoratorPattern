@@ -1,7 +1,7 @@
 public class Cheese extends Topping {
 
     public Cheese(Food food) {
-        this.food = food;
+        super(food);
     }
 
     @Override
