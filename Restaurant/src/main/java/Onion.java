@@ -10,6 +10,6 @@ public class Onion extends Topping{
 
     @Override
     public Double getCost() {
-        return 0.70;
+        return food.getCost() + 0.70;
     }
 }

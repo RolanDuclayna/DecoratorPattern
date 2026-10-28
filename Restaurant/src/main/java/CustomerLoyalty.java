@@ -6,6 +6,6 @@ public class CustomerLoyalty {
     }
 
     public double getDiscount() {
-        return 50.0 * loyaltyNumber;
+        return (50.0 * loyaltyNumber) / 100;
     }
 }
