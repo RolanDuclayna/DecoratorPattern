@@ -23,12 +23,12 @@ public class RestaurantTesting {
 
     @Test
     public void testDiscount() {
-        assertEquals(37.5, loyalty.getDiscount());
+        assertEquals(0.375, loyalty.getDiscount());
     }
 
     @Test
     public void testTotalCost() {
-        CustomerOrder customer = new CustomerOrder(50);
+        CustomerOrder customer = new CustomerOrder();
         customer.addFoodItem(cheeseburger);
         customer.addFoodItem(hotdog);
         assertEquals(8.6, customer.getTotalCost());
