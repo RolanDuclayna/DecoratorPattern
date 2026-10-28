@@ -1,0 +1,1 @@
+Customer Loyalty is based off of a percentage. In the driver, 0.75 is used as an example. This means the customer is 75% loyal thus they have a 75% off the 50% discount, whereas someone with a 1 would be 100% loyal and would have the full 50% discount on all prices. 
